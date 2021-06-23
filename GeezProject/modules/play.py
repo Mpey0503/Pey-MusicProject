@@ -511,7 +511,7 @@ async def play(_, message: Message):
         )
     elif urls:
         query = toxt
-        await lel.edit("🎵 **Sabar Ges , Lagi Proses Tolol Sabar**")
+        await lel.edit("🎵 **Sabar Ges , Lagi Proses Tolol Sabar Napa**")
         ydl_opts = {"format": "bestaudio[ext=m4a]"}
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
@@ -551,7 +551,7 @@ async def play(_, message: Message):
         for i in message.command[1:]:
             query += " " + str(i)
         print(query)
-        await lel.edit("🎵 **Bentar Ges , Lagi Proses Tolol Sabar**")
+        await lel.edit("🎵 **Bentar Ges , Lagi Proses Tolol Sabar Napa**")
         ydl_opts = {"format": "bestaudio[ext=m4a]"}
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
@@ -597,8 +597,8 @@ async def play(_, message: Message):
         qeue.append(appendable)
         await message.reply_photo(
             photo="final.png",
-            caption = f"➥ **Judul Bokep:** [{title[:23]}]({url})\n➥ **Durasi:** {duration}\n➥ **Status:** Antrian Ke `{position}`\n" \
-                    + f"➥ **Request Dari Jamet:** {message.from_user.mention}",
+            caption = f"➣ **Judul Bokep:** [{title[:23]}]({url})\n➣ **Durasi:** {duration}\n➣ **Status:** Antrian Ke `{position}`\n" \
+                    + f"➣ **Request Dari Jamet:** {message.from_user.mention}",
                    reply_markup=keyboard)
         os.remove("final.png")
         return await lel.delete()
@@ -618,8 +618,8 @@ async def play(_, message: Message):
             return
         await message.reply_photo(
             photo="final.png",
-            caption = f"➥ **Judul Bokep:** [{title[:23]}]({url})\n➥ **Durasi:** {duration}\n➥ **Status:** Sedang Memutar\n" \
-                    + f"➥ **Request Dari Jamet:** {message.from_user.mention}",
+            caption = f"➣ **Judul Bokep:** [{title[:23]}]({url})\n➣ **Durasi:** {duration}\n➣ **Status:** Sedang Memutar\n" \
+                    + f"➣ **Request Dari Jamet:** {message.from_user.mention}",
                    reply_markup=keyboard)
         os.remove("final.png")
         return await lel.delete()
