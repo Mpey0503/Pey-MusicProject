@@ -1,8 +1,8 @@
-<h1 align="centre">Geez Music Project 🎵</h1>
+<h1 align="centre">Pey Music Project 🔊</h1>
 
 ### A bot that can play music on Telegram Group and Channel Voice Chats
 #### POWERED BY [PYTGCALLS](https://github.com/pytgcalls/pytgcalls)
-### Available on telegram as [@GeezMusicBot](https://t.me/GeezMusicBot)
+### Available on telegram as [@PeyyMusicBot](https://t.me/PeyyMusicBot)
 
 <h2> Features 🔥 </h2>
 
