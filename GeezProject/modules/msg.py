@@ -20,12 +20,13 @@ class Messages():
       HELP_MSG = [
         ".",
 f"""
-**Hey 👋 Selamat datang kembali di {PROJECT_NAME}
+**Hey Ngentot Welkombek to {PROJECT_NAME}
 
 ✣️ {PROJECT_NAME} dapat Memutar Lagu di Voice Chat Group Dengan cara yang Mudah.
 
 ✣️ Assistant Music » @{ASSISTANT_NAME}\n\nKlik Next untuk instruksi**
 
+➥ Buat Slipkolan Pc Aja {OWNER} Bhaksss
 """,
 
 f"""
